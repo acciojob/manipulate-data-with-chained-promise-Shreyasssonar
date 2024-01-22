@@ -3,7 +3,6 @@
                 setTimeout(() => {
                     // Filter out odd numbers
                     const filteredArray = inputArray.filter(num => num % 2 === 0);
-
                     resolve(filteredArray);
                 }, 1000);
             })
